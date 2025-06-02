@@ -1,0 +1,51 @@
+# 📘 Introduction to Object-Oriented Programming (OOP)
+
+## ✅ What is OOP?
+
+Object-Oriented Programming (OOP) is a programming paradigm centered around **objects** rather than actions.
+It allows developers to model real-world entities as code objects that have **state (data)** and **behavior (methods)**.
+
+In OOP, everything is represented as objects that interact with one another to perform tasks.
+
+### Four Core Pillars of OOP:
+1. **Encapsulation** – Bundling data and methods into a single unit (class)
+2. **Abstraction** – Hiding internal complexity and showing only the necessary features
+3. **Inheritance** – Acquiring properties and behaviors from existing classes
+4. **Polymorphism** – Taking many forms (method overloading/overriding)
+
+---
+
+## 🔄 OOP vs Procedural Programming
+
+| Feature                  | Procedural Programming            | Object-Oriented Programming                |
+|--------------------------|-----------------------------------|--------------------------------------------|
+| Structure                | Linear, function-based            | Class and object-based                     |
+| Data Handling            | Functions operate on data         | Data and functions are encapsulated        |
+| Code Reusability         | Limited                           | High (via inheritance and polymorphism)    |
+| Real-world modeling      | Indirect                          | Direct (through objects)                   |
+| Maintenance              | Harder as project grows           | Easier due to modular design               |
+| Examples                 | C, Pascal                         | Java, C++, Python (OOP style)              |
+
+---
+
+## 🌍 Benefits of OOP
+
+1. **Modularity** – Code is organized into discrete objects
+2. **Reusability** – Inheritance allows code reuse with minimal changes
+3. **Scalability** – Code is easier to scale in large applications
+4. **Maintainability** – Changes to one part of code don’t affect others drastically
+5. **Real-world Mapping** – Easier to design software by modeling real-world systems
+
+---
+
+## 💡 Real-World Examples
+
+- **Banking System**: `Account`, `Customer`, `Transaction` as objects
+- **E-commerce App**: `Product`, `Cart`, `Order`, `User`
+- **Game Development**: `Player`, `Enemy`, `Weapon`, `Scoreboard`
+- **Library Management**: `Book`, `Author`, `Member`, `Loan`
+
+Each of these real-world entities can be represented as classes with attributes (fields) and behaviors (methods), making the code intuitive, modular, and scalable.
+
+---
+
