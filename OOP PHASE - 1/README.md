@@ -30,25 +30,18 @@ Each subtopic includes:
   - Memory allocation and behavior
   - Accessing members using objects
 
-- **4. Constructor**
+- **4. Constructor And this keyword**
   - Default, parameterized, and copy constructors
-  - Constructor overloading
   - Purpose of constructors in object initialization
+  - this keyword
+  - Resolving naming conflicts this keword
 
-- **5. `this` Keyword**
-  - Use cases and meaning
-  - Resolving naming conflicts
-  - Returning the current object
-
-- **6. `final` Keyword**
+- **5. `final` Keyword**
   - Final variables, methods, and classes
   - Immutability and restrictions
-
-- **7. `finalize()` Method**
   - Purpose and use in garbage collection
-  - Why it is deprecated and alternatives in modern Java
 
-- **8. Wrapper Classes**
+- **6. Wrapper Classes**
   - What are wrapper classes?
   - Primitive vs Wrapper types
   - Autoboxing and unboxing
