@@ -23,7 +23,7 @@ public class finalKeyword {
         System.out.println(val);
         sum(5, 6);
 
-        //🧹 Purpose of Garbage Collector (GC) in Java.
+        //🧹 Purpose of Garbage Collector (GC) in Java .
         // in java Gc is memory management system. it primary purpose to free space.
         // using deleting object.
         // -> without Gc you have to manually free the space like (C,C++).
