@@ -17,7 +17,7 @@ Each topic includes:
 ## 📚 Contents
 
 ### 1. 📦 Packages
-- Built-in packages (`java.util`, `java.io`, etc.)
+- Built-in packages (`java.util`)
 - Creating and using user-defined packages
 - Importing classes
 
@@ -40,6 +40,4 @@ Each topic includes:
 - How to implement a Singleton securely:
   - Private constructor
   - Static `getInstance()` method
-  - Thread-safe implementation (double-checked locking)
-
 ---
