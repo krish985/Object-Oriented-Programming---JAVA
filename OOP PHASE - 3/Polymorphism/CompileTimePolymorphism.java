@@ -17,7 +17,7 @@ public class CompileTimePolymorphism {
     }
 
     public static void main(String[] args) {
-        // 🔷 Run Time polymorphism.
+        // 🔷 Compile Time polymorphism.
         // -> Achived via Method Overloading
         // -> In this you can define inside a class multile function
         // -> with same name but diffrent paramenter that's known
