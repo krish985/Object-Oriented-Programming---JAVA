@@ -1,0 +1,12 @@
+| Modifier                      | Class | Package | Subclass (same or different package) | Outside Package             |
+| ----------------------------- | ----- |  -------| ------------------------------------ | -------------------------   |
+| **`public`**                  | ✔️    | ✔️     | ✔️                                   | ✔️                         |
+| **`protected`**               | ✔️    | ✔️     | ✔️                                   | ❌ (only through subclass) |
+| **`default`** *(no modifier)* | ✔️    | ✔️     | ❌                                   | ❌                         |
+| **`private`**                 | ✔️    | ❌     | ❌                                   | ❌                         |
+
+📌 Explanation:
+1. public: Accessible from anywhere.
+2. protected: Accessible within the same package and in subclasses, even if they're in different packages.
+3. default (no modifier): Accessible only within the same package.
+4. private: Accessible only within the same class.
