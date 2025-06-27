@@ -1,0 +1,29 @@
+✅ What is the Object Class in Java?
+In Java, the Object class is the root (superclass) of all classes.
+Every class you create automatically inherits from Object — either 
+directly or indirectly.
+ 
+📌 Syntax (Even if not written):
+class MyClass extends Object {
+    // implicitly extends Object even if not mentioned
+    @Override
+    public String toString() {
+        return "Name: " + name + ", Roll: " + roll;
+    }
+}
+
+| Method                          | Description                                                              |
+| ------------------------------- | ------------------------------------------------------------------------ |
+| `toString()`                    | Returns a string representation of the object                            |
+| `equals(Object obj)`            | Checks if two objects are equal (by default compares references)         |
+| `hashCode()`                    | Returns a hash code for the object                                       |
+| `getClass()`                    | Returns the runtime class of the object                                  |
+| `clone()`                       | Creates and returns a copy of the object *(needs `Cloneable` interface)* |
+| `finalize()`                    | Called before the object is garbage collected *(now deprecated)*         |
+| `wait(), notify(), notifyAll()` | Used for thread communication (advanced concurrency)                     |
+
+🧠 Why learn Object class?
+✅ All Java classes inherit it.
+✅ You'll often override methods like toString() and equals() in real-world coding.
+✅ Interviewers love to ask about equals() vs ==, hashCode(), and getClass().
+
